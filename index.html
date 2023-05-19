@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-Hands-On-2</title>
+   
+</head>
+
+<body>
+    <h1>FORMS</h1>
+    <form action="./index2.html" target="_self" >
+
+        <label for="name">Name</label>
+        <input type="text" placeholder="name" id="name" required name="name"><br /><br />
+
+        <label for="email">Email Address</label>
+        <input type="email" placeholder="email" required name="email" id="email"><br /><br />
+
+        <label for="pass">Password</label>
+        <input type="password" placeholder="password" required name="password" id="pass"><br /><br />
+
+
+        <label for="languageName">Language</label><br/>
+        <input type="radio" name="languageName" value="react" id="react"> <label for="react">React</label><br />
+        <input type="radio" name="languageName" value="angular" id="angular"> <label for="angular">Angular</label><br />
+        <input type="radio" name="languageName" value="vue" id="vue"> <label for="vue">Vue</label><br /><br/>
+
+
+        <label for="courseName">Course</label><br/>
+        <input type="checkbox" name="course1" value="mern" id="mern"> <label for="mern">MERN</label><br />
+        <input type="checkbox" name="course2" value="mean"id="mean"> <label for="mean">MEAN</label><br />
+        <input type="checkbox" name="course3" value="mevn" id="mevn"> <label for="mevn">MEVN</label><br /><br/>
+
+        <label for="field">Field:</label>
+        <select required>
+            <option value="FrontEnd">Front End</option>
+            <option value="BackEnd">Back End</option>
+            <option value="FullStack">Full Stack</option>
+        </select><br /><br />
+
+
+        <textarea cols="30" rows="10" name="Message"></textarea><br />
+
+        <label for="phoneNumber">Phone Number</label>
+        <input type="number" required name="phoneNumber" id="phoneNumber">
+        <input type="submit" value="submit">
+       
+
+        <h2>TABLES</h2>
+        <a href="./index3.html" target="_self">Click Here</a>
+    </form>
+</body>
+
+</html>
+
